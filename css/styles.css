@@ -101,7 +101,8 @@ ul {
     background-color: #fff;
 }
 
-.card-heading {
+.card-heading,
+.our-team-card-heading {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -109,12 +110,21 @@ ul {
     color: #2e2f42;
 }
 
-.card-text {
+.our-team-card-heading {
+    text-align: center;
+}
+
+.card-text,
+.our-team-card-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.our-team-card-text {
+    text-align: center;
 }
 
 .team-section {
